@@ -186,7 +186,7 @@ export function DashboardPage() {
                 }}
                 labelStyle={{ color: '#94a3b8' }}
                 itemStyle={{ color: '#818cf8' }}
-                formatter={(v: number) => [`${v}%`, 'BOR']}
+                formatter={(v: any) => [`${v}%`, 'BOR']}
               />
               <Area
                 type="monotone"
